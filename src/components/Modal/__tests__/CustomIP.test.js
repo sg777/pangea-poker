@@ -47,7 +47,7 @@ describe("CustomIP", () => {
 
     // DCV by deafult
     expect(wrapper.find(`input[name="dcv"]`)).toHaveLength(1);
-    expect(wrapper.find(`input[name="bvv"]`)).toHaveLength(1);
+    expect(wrapper.find(`input[name="bvv"]`)).toHaveLength(0);
     expect(wrapper.find(`input[name="player1"]`)).toHaveLength(0);
     expect(wrapper.find(`input[name="player2"]`)).toHaveLength(0);
 

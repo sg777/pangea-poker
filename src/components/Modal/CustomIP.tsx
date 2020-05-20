@@ -30,12 +30,6 @@ const nodesToInput: INode[][] = [
       id: "dealer",
       type: "dealer",
       devAddress: process.env.DEV_SOCKET_URL_DCV
-    },
-    {
-      name: "bvv",
-      id: "dealer",
-      type: "dealer",
-      devAddress: process.env.DEV_SOCKET_URL_BVV
     }
   ],
   [
